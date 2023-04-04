@@ -1,4 +1,7 @@
 @media (max-width: 480px) {
+    .body1 {
+        width: 0px;
+    }
     .div1 #p1 {
         font-size: 35px;
         position: absolute;
@@ -12,8 +15,8 @@
     }
     .imge1 {
         position: relative;
-        top: -135px;
-        right: -373px;
+        top: -175px;
+        right: -400px;
         cursor: pointer;
     }
     .div1 {
@@ -21,12 +24,12 @@
         width: 520px;
         height: 40px;
         position: relative;
-        top: -48px;
+        top: -88px;
         left: -8px;
         
     }
     .menudiv {
-        top: -677px;
+        top: -717px;
     }
     .div9 {
         left: 0px;
@@ -49,8 +52,9 @@
         
     }
     #p9 {
-        top: 1540px;
-        left: 55px;
+        top: 1523px;
+        left: 33px;
+        display: inline;
     }
     .hr1 {
         margin-top: 1300px;
@@ -67,6 +71,7 @@
     }
     .div7 {
         width: 423px;
+        height: 375px;
         
     }
     .div8 {
@@ -83,29 +88,29 @@
         left: 130px;
     }
     .div71 {
-        top: -261px;
+        top: -237px;
         left: 140px;
     }
     .p10 {
-    top: -299px;
+    top: -275px;
     left: 155px;
     }
     .p11 {
-        top: -339px;
+        top: -290px;
         left: 145px;
         font-size: 30px;
     }
     .button2 {
-        top: -545px;
+        top: -485px;
         left: 140px;
     }
     .p12 {
         left: 10px;
-        top: -310px;
+        top: -250px;
         font-size: 30px;
     }
     .list1 {
-        top: -346px;
+        top: -285px;
         left: 20px;
     }
     .div8 {
@@ -130,7 +135,7 @@
         top: 55px;
     }
     .div81 {
-        top:-405px; 
+        top:-148px; 
         left: 12px;
         color: rgb(1, 77, 1);
         filter: brightness(120%);
