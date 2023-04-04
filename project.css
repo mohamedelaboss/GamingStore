@@ -1,0 +1,503 @@
+body {
+    overflow-x: hidden;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    height: 2300px;
+    width: 1280px;
+}
+.div1 {
+    background-color: #0057FF;
+    width: 1280px;
+    height: 60px;
+    position: relative;
+    top: -48px;
+    left: -8px;
+    
+}
+.div1 #p1 {
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    top: -50px;
+    left: 500px;
+    font-family: 'Bebas Neue', cursive;
+    color: #EBF2EB;
+    cursor: default;
+    letter-spacing: 5px;
+}
+.imge1 {
+    position: relative;
+    top: -140px;
+    right: -1170px;
+    cursor: pointer;
+}
+.menudiv {
+    position: relative;
+    top: -687px;
+    left: 32px;
+    width: 20px;
+}
+.list3 {
+    position: relative;
+    top: -673px;
+    left: -40px;
+    list-style: none;
+    border: solid #e85d4e;
+    width: 190px;
+    background-color: #EBF2EB;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin: 0px;
+}
+.divo {
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+.divo:hover {
+    opacity: 1;
+}
+.menudiv:hover + .divo {
+    opacity: 1;
+}
+.div14 {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    border: solid black;
+    border-radius: 10px;
+    position: relative;
+    top: -4px;
+}
+
+.div15 {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    border: solid black;
+    border-radius: 10px;
+    position: relative;
+    top: -2px;
+}
+.div16 {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    border: solid black;
+    border-radius: 10px;
+}
+.div1 .a1 {
+    color: #EBF2EB;
+    position: relative;
+    top: -109px;
+    left: 30px;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: large;
+}
+.imge2 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -100px;
+    left: 30px  ;
+    
+}
+.div9 {
+    width: 830px;
+    height: 40px;
+    position: relative;
+    top: -50px;
+    left: 220px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    box-shadow: inset;
+}
+.p16 {
+    order: -5;
+    cursor: pointer;
+}
+.p17 {
+    order: -4;
+    cursor: pointer;
+}
+.p18 {
+    order: -2;
+}
+.p19 {
+    order: -3;
+}
+.p20 {
+    order: -1;
+}
+#p2 {
+    order: 1;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    color: black    
+}
+.p19:hover + .div11 {
+    display: block;
+}
+.imge3 {
+    width: 200px;
+    height: 260px;
+    position:absolute;
+    left: 100px;
+    top: 25px;
+}
+.div2 {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: solid #0057FF;
+    border-radius: 30px;
+    filter: blur(3px);
+    transition: 1s;
+    cursor: default;
+    position: relative;
+    left: 50px;
+    top: 200px;
+}
+
+.div2 .p3 {
+    position: absolute;
+    top: 480px;
+    left: 110px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: large;
+    color: #e85d4e;
+    cursor: default;
+}
+.div2 .p4 {
+    position: absolute;
+    top: 500px;
+    left: 130px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 30px;
+    color: #e85d4e;
+    cursor: default;
+}
+.div2 .p5 {
+    position: absolute;
+    top: 565px;
+    left: 150px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 20px;
+    color: #e85d4e;
+    cursor: default;
+}
+.div2:hover {
+    filter: blur(0);
+    transform: scale(105%);
+}
+.div3 {
+    position: relative;
+    top: -200px;
+}
+.button1 {
+    position: relative;
+    top: 410px;
+    left: 140px;
+    width: 110px;
+    height: 50px;
+    border: solid #e85d4e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.div4 {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: solid #0057FF;
+    border-radius: 30px;
+    filter: blur(3px);
+    transition: 1s;
+    cursor: default;
+    position: relative;
+    left: 750px;
+    top: -330px;
+}
+.div4:hover {
+    filter: blur(0);
+    transform: scale(105%);
+}
+.imge5 {
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    left: 53px;
+}
+.div5 {
+    position: relative;
+    top: -200px;
+}
+.div5 .p6 {
+    position: absolute;
+    top: 480px;
+    left: 150px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: large;
+    color: #e85d4e;
+    cursor: default;
+}
+.div5 .p7 {
+    position: absolute;
+    top: 500px;
+    left: 130px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 30px;
+    color: #e85d4e;
+    cursor: default;
+}
+.div5 .p8    {
+    position: absolute;
+    top: 565px;
+    left: 150px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 20px;
+    color: #e85d4e;
+    cursor: default;
+}
+#div6 {
+    position: absolute;
+    top: 190px;
+    margin-left: 300px;
+    font-size: 130px;
+    font-family: 'Bebas Neue', cursive;
+    color: #e85d4e;
+    cursor: default;
+}
+.imge6 {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    top: 520px;
+    left: 1170px;
+    transition: 0.8s ease-out;
+    z-index: 1;
+}
+.imge6:hover {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    left: 1160px;
+}
+#p9 {
+    position: relative;
+    width: 100px;
+    top: 990px;
+    display: inline;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    cursor: default;
+}
+.div7 {
+    border: solid #0057FF;
+    width: 1200px;
+    height: 300px;
+    position: relative  ;
+    top: -190px;
+    border-radius: 3px;
+    
+}
+.div8 {
+    border: solid #0057FF;
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    top: -170px;
+    cursor: default;
+}
+.div71 {
+    width: 7px;
+    height: 7px;
+    position: relative;
+    top: -330px;
+    left: 300px;
+    border: solid rgb(89, 202, 89);
+    border-radius: 10px;
+    background-color: rgb(89, 202, 89);
+    cursor: default;
+}
+.p10 {
+    position: relative;
+    top: -369px;
+    left: 320px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    cursor: default;
+}
+.p11 {
+    position: relative;
+    top: -409px;
+    left: 305px;
+    font-size: 40px;
+    color: #cc2a36;
+    font-family: 'Bebas Neue', cursive;
+    cursor: default;
+}
+
+.list1 {
+    position: relative;
+    top: -535px;
+    left: 750px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    cursor: default;
+}
+.p12 {
+    position: relative;
+    top: -506px;
+    left: 780px;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    color: #cc2a36;
+    cursor: default;
+}
+.button2 {
+    position: relative;
+    top: -595px;
+    left: 310px;
+    width: 200px;
+    height: 50px;
+    border: solid #cc2a36;
+    border-radius: 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px ;
+    cursor: pointer;
+}
+.p13 {
+    position: relative;
+    top: -30px;
+    left: 330px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    cursor: default;
+}
+.div81 {
+    width: 7px;
+    height: 7px;
+    position: relative;
+    top: -489px;
+    left: 310px;
+    border: solid rgb(89, 202, 89);
+    border-radius: 10px;
+    background-color: rgb(89, 202, 89);
+    cursor: default;
+}
+.button3 {
+    position: relative;
+    top: -335px;
+    left: 310px;
+    width: 200px;
+    height: 50px;
+    border: solid #cc2a36;
+    border-radius: 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px ;
+    cursor: pointer;
+}
+.p14 {
+    position: relative;
+    top: -70px;
+    left: 305px;
+    font-size: 40px;
+    color: #cc2a36;
+    font-family: 'Bebas Neue', cursive;
+    cursor: default;
+}
+.list2 {
+    position: relative;
+    top: -225px;
+    left: 750px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    cursor: default;
+}
+.p15 {
+    position: relative;
+    top: -196px;
+    left: 780px;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    color: #cc2a36;
+    cursor: default;
+}
+.div10 {
+    position: relative;
+    left: 300px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    border: solid #e85d4e; width: 600px;
+    text-align: center;
+    transition: 0.8s;
+    cursor: default;
+}
+.div12 {
+    display: inline block;
+}
+.cont1 {
+    text-decoration: none;
+    color: black;
+    border: solid #e85d4e;
+    width: 300px;
+    text-align: center;
+    height: fit-content;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    position: relative;
+    top: 20px;
+    left: 450px;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #e85d4e;
+}
+.cont1:hover {
+    transform: scale(105%);
+}
+.cont2 {
+    text-decoration: none;
+    color: black;
+    border: solid #e85d4e;
+    width: 300px;
+    text-align: center;
+    height: fit-content;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    position: relative;
+    top: 30px;
+    left: 450px;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #e85d4e;
+}
+.cont2:hover {
+    transform:scale(105%)
+}
+
+@media screen and (max-width: 600px) {
+
+}
+.div13 {
+    position: absolute;
+}
+.pt {
+    cursor: default;position: relative;;top: 5px; left: 310px; font-family: 'Bebas Neue', cursive; font-size: 35px;
+}
+.imgt2 {
+    width: 290px; height: 290px; position: absolute; top: 0px; left: 5px;
+}
+
+.imgt1 {
+    width: 410px;height: 300px; position: relative; ;left: -100px;
+}
+.pt1 {
+    cursor: default;position: relative;;top: -300px; left: 300px; font-family: 'Bebas Neue', cursive; font-size: 35px;
+}

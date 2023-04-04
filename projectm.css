@@ -1,0 +1,164 @@
+@media (max-width: 480px) {
+    .div1 #p1 {
+        font-size: 35px;
+        position: absolute;
+        text-align: center;
+        top: -35px;
+        left: 130px;
+        font-family: 'Bebas Neue', cursive;
+        color: #EBF2EB;
+        cursor: default;
+        letter-spacing: 5px;
+    }
+    .imge1 {
+        position: relative;
+        top: -135px;
+        right: -373px;
+        cursor: pointer;
+    }
+    .div1 {
+        background-color: #0057FF;
+        width: 520px;
+        height: 40px;
+        position: relative;
+        top: -48px;
+        left: -8px;
+        
+    }
+    .menudiv {
+        top: -677px;
+    }
+    .div9 {
+        left: 0px;
+        font-size: 10px;
+        top: -40px;
+        width: 430px;
+    }
+    #p2 {
+        top: 10px;
+        left: 0px;
+    }
+    #div6 {
+        font-size: 80px;
+        left: -160px;
+        display: inline;
+    }
+    .bigdiv {
+        position: absolute;
+        top: 1800px;
+        
+    }
+    #p9 {
+        top: 1540px;
+        left: 55px;
+    }
+    .hr1 {
+        margin-top: 1300px;
+    }
+    .div2 {
+        width: 400px;
+        height: 500px;
+        left: 20px;
+        top: 230px;
+    }
+    .div4 {
+        left: 20px;
+        top: 260px;
+    }
+    .div7 {
+        width: 423px;
+        
+    }
+    .div8 {
+        top: 0px;
+    }
+    .imgt1 {
+        width: 250px;
+        height: 200px;
+        left: -55px;
+    }
+    .pt1 {
+        font-size: 30px;
+        top: -230px;
+        left: 130px;
+    }
+    .div71 {
+        top: -261px;
+        left: 140px;
+    }
+    .p10 {
+    top: -299px;
+    left: 155px;
+    }
+    .p11 {
+        top: -339px;
+        left: 145px;
+        font-size: 30px;
+    }
+    .button2 {
+        top: -545px;
+        left: 140px;
+    }
+    .p12 {
+        left: 10px;
+        top: -310px;
+        font-size: 30px;
+    }
+    .list1 {
+        top: -346px;
+        left: 20px;
+    }
+    .div8 {
+        top: -130px;
+        width: 423px;
+        height: 270px;
+        margin-bottom: 240px;
+    }
+    .imgt2 {
+        width: 340px;
+        height: 270px;
+        left: 40px;
+        top: -80px;
+    }
+    .pt {
+        top: 91px;
+        left: 28px;
+        font-size: 30px;
+    }
+    .p13 {
+        left: 30px;
+        top: 55px;
+    }
+    .div81 {
+        top:-405px; 
+        left: 12px;
+        color: rgb(1, 77, 1);
+        filter: brightness(120%);
+    }
+    .p14 {
+        top: 8px;
+        left: 108px;
+    }
+    .button3 {
+        top: -42px;
+        left: 113px;
+    }
+    .p15 {
+        display: none;
+    }
+    .list2 {
+        display: none;
+    }
+    .hr1 {
+        display: none;
+    }
+    .div10 {
+        display: none;
+    }
+    .div12 {
+        display: none;
+    }
+    .imge6 {
+        display: none;
+    }
+}
